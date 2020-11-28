@@ -1,0 +1,168 @@
+body{
+    padding: 0%;
+    margin-top: 0%;
+    height: 100%;
+}
+
+
+.site-content{
+    background-image: url(resources/bg-5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0%;
+}
+
+.site-content-2{
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 2%; 
+}
+
+.site-upload{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 10%;
+    /**background-image: url(resources/bg-5.jpg);**/
+    background-color: rgba(0, 0, 0, 0.7);
+     
+}
+
+.site-content-about{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.header-site-black{
+    border-bottom: black 2px solid;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-top: 3%;
+}
+
+.header-site-white{
+    border-bottom: white 2px solid;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-top: 3%;
+    color: white;
+}
+
+.header-site-white-2{
+    border-bottom: white 2px solid;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-top: 2%;
+    color: white;
+}
+
+.site-pilih{
+    background-image: url(resources/bg-5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 2%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 2px;
+    color: black;
+}
+
+.content-quote{
+    margin-top: 15%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: white;
+    
+}
+.content-quote2{
+    margin-top: 0%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: right;
+    color: white;
+}
+
+.choose-list{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.btn-choose-list{
+    padding-right: 20px; 
+    padding-left: 20px; 
+    margin-bottom: 5PX;
+}
+.card-upload{
+    margin-top: 15%;
+    margin-bottom: 20%;
+    border: 1px solid;
+}
+
+footer{
+    flex-shrink: none;
+}
+
+.site-extra{
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.margin-extra{
+    margin-left: 2%;
+}
+
+.row-profile{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.profile-image img{
+    height: 5px;
+    width:5px;
+}
+
+.site-full{
+    height: 100%;
+}
+
+.img-circle img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: cover;   
+}
+
+.img-circle2 img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;  
+}
+
+.img-circle3 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-size: cover;  
+}
+
+.about-profile{
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.site-index{
+    padding-top: 15%;
+}
