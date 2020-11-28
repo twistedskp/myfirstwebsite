@@ -25,9 +25,10 @@
                         </div>
                     <?php endif; ?>
                     <form action="login.php" method="POST">
-                        <div class="form-group">
+                       <div class="form-group">
                             <label for="nrpmhs">Student ID</label>
-                            <input type="text" class="form-control" id="nrpmhs" name="nrpmhs" placeholder="Enter Student ID" required>
+                            <input type="text" class="form-control" id="nrpmhs" name="nrpmhs" placeholder="Enter Student ID" onkeypress="return onlyNumberKey(event)"  required>
+                            <small id="detailnrpmhs" class="form-text text-muted font-italic">(Only accept digits)</small>
                         </div>
                         <div class="form-group">
                             <label for="password1">Password</label>
